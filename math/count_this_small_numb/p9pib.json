@@ -1,9 +1,22 @@
 {
-  "soal_type" : "put_pic_in_box",
-  "soal" : {
-    "eng" : "Put 9 komodo dragon in the box!",
-    "ind" : "Letakkan 9 komodo ke dalam kotak!"
+  "id": "p09pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 9 Komodo dragons in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 9 komodo ke dalam kotak!"
+    }
   },
-  "jawaban" : 9,
-  "gambar" : ,
+
+  "object": {
+    "name": "Komodo Dragon",
+    "description": "The Komodo dragon is the largest living species of lizard, found in the Indonesian islands of Komodo, Rinca, Flores, and Gili Motang."
+  },
+
+  "answer": {
+    "required_count": 9
+  }
 }
