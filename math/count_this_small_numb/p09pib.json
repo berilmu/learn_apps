@@ -11,8 +11,8 @@
     }
   },
 
-  "object": {
-    "name": "Komodo Dragon",
+  "picture": {
+    "name": null,
     "description": "The Komodo dragon is the largest living species of lizard, found in the Indonesian islands of Komodo, Rinca, Flores, and Gili Motang."
   },
 
