@@ -4,11 +4,11 @@
 
   "content": {
     "en": {
-      "question": "How do we count the flowers?",
+      "question": "How do we count the Rhinos?",
       "instruction": "Choose one answer."
     },
     "id": {
-      "question": "Bagaimana cara yang benar dalam menghitung bunga ini?",
+      "question": "Bagaimana cara yang benar dalam menghitung badak ini?",
       "instruction": "Pilih satu."
     }
   },
