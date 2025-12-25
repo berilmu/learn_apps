@@ -1,0 +1,22 @@
+{
+  "id": "p03pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 3 cats in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 3 kucing ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": "Cat",
+    "description": "Cats are small domesticated carnivorous mammals commonly kept as pets and familiar animals for children."
+  },
+
+  "answer": {
+    "required_count": 3
+  }
+}
