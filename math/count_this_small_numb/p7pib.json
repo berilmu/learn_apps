@@ -1,9 +1,0 @@
-{
-  "soal_type" : "put_pic_in_box",
-  "soal" : {
-    "eng" : "Put 7 mice in the box!",
-    "ind" : "Letakkan 7 tikus ke dalam kotak!"
-  },
-  "jawaban" : 7,
-  "gambar" : ,
-}
