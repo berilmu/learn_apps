@@ -1,0 +1,22 @@
+{
+  "id": "p02pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 2 orangutans in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 2 orangutan ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": null,
+    "description": "Orangutans are great apes native to Indonesia and Malaysia, known for their intelligence and long arms."
+  },
+
+  "answer": {
+    "required_count": 2
+  }
+}
