@@ -1,0 +1,24 @@
+{
+  "id": "cio01",
+  "type": "count_in_order",
+  "content": {
+    "en": {
+      "question": "How do we count the flowers?",
+      "instruction": "Mana yang benar dalam menghitung bunga ini?",
+    },
+    "id": {
+      "question": "Hitung jumlah gajah ini!",
+      "instruction": "Tuliskan angka yang hilang.",
+      "sequence": [1, null, 3, null]
+    }
+  },
+
+  "answer": {
+    "missing_count": 2,
+    "values": [2, 4]
+  },
+
+  "assets": {
+    "image": null
+  },
+}
