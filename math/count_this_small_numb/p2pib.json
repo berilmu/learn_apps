@@ -1,0 +1,9 @@
+{
+  "soal_type" : "put_pic_in_box",
+  "soal" : {
+    "eng" : "Put 2 orang utan in the box!",
+    "ind" : "Letakkan 2 orangutan ke dalam kotak!"
+  },
+  "jawaban" : 2,
+  "gambar" : ,
+}
