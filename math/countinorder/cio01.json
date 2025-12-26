@@ -4,11 +4,15 @@
 
   "content": {
     "en": {
-      "question": "How do we count the flowers?",
+      "blocks": [
+        { "type": "text", "value": "How do we count the flowers?" }
+      ],
       "instruction": "Choose one answer."
     },
     "id": {
-      "question": "Bagaimana cara yang benar dalam menghitung bunga ini?",
+      "blocks": [
+        { "type": "text", "value": "Bagaimana cara kita menghitung bunga ini?" }
+      ],
       "instruction": "Pilih satu."
     }
   },

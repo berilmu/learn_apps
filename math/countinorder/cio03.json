@@ -4,11 +4,15 @@
 
   "content": {
     "en": {
-      "question": "How do we count the mangoes?",
+      "blocks": [
+        { "type": "text", "value": "How do we count the mangoes?" }
+        ],
       "instruction": "Choose one answer."
     },
     "id": {
-      "question": "Bagaimana cara yang benar dalam menghitung mangga ini?",
+      "blocks": [
+        { "type": "text", "value": "Bagaimana cara yang benar dalam menghitung mangga ini?" }
+      ],
       "instruction": "Pilih satu."
     }
   },

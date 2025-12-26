@@ -3,12 +3,16 @@
   "type": "fill_missing_number",
   "content": {
     "en": {
-      "question": "Count the elephants!",
+      "blocks": [
+        { "type": "text", "value": "Count the elephants!" }
+      ],
       "instruction": "Type the missing numbers.",
       "sequence": [1, null, 3, null]
     },
     "id": {
-      "question": "Hitung jumlah gajah ini!",
+      "blocks": [
+        { "type": "text", "value": "Hitung jumlah gajah ini!" }
+      ],
       "instruction": "Tuliskan angka yang hilang.",
       "sequence": [1, null, 3, null]
     }
@@ -22,5 +26,5 @@
 
   "assets": {
     "image": null
-  },
+  }
 }

@@ -3,12 +3,16 @@
   "type": "fill_missing_number",
   "content": {
     "en": {
-      "question": "Count the kangaroos!",
+      "blocks": [
+        { "type": "text", "value": "Count the kangaroos!" }
+      ],
       "instruction": "Type the missing numbers.",
       "sequence": [1, 2, 3, null, null]
     },
     "id": {
-      "question": "Hitung jumlah kangguru ini!",
+      "blocks": [
+        { "type": "text", "value": "Hitung jumlah kangguru ini!" }
+      ],
       "instruction": "Tuliskan angka yang hilang.",
       "sequence": [1, 2, 3, null, null]
     }
@@ -22,5 +26,5 @@
   
   "assets": {
     "image": null
-  },
+  }
 }

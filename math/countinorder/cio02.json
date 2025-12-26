@@ -4,11 +4,15 @@
 
   "content": {
     "en": {
-      "question": "How do we count the Rhinos?",
+      "blocks": [
+        { "type": "text", "value": "How do we count the Rhinos?" }
+      ],
       "instruction": "Choose one answer."
     },
     "id": {
-      "question": "Bagaimana cara yang benar dalam menghitung badak ini?",
+      "blocks": [
+        { "type": "text", "value": "Bagaimana cara kita menghitung badak ini?" }
+      ],
       "instruction": "Pilih satu."
     }
   },

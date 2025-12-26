@@ -3,12 +3,16 @@
   "type": "fill_missing_number",
   "content": {
     "en": {
-      "question": "Count the flowers!",
+      "blocks": [
+        { "type": "text", "value": "Count the flowers!" }
+      ],
       "instruction": "Type the missing numbers.",
       "sequence": [1, null, 3]
     },
     "id": {
-      "question": "Hitung jumlah bunga ini!",
+      "blocks": [
+        { "type": "text", "value": "Hitung jumlah bunga ini!" }
+      ],
       "instruction": "Tuliskan angka yang hilang.",
       "sequence": [1, null, 3]
     }
@@ -22,5 +26,5 @@
 
   "assets": {
     "image": null
-  },
+  }
 }
