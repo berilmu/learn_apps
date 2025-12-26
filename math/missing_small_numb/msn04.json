@@ -1,0 +1,31 @@
+{
+  "id": "msn04",
+  "type": "multiple_choice",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "list", "value": [9, 10, 11, 12, null] }
+      ],
+      "instruction": "What number is next?"
+    },
+    "id": {
+      "blocks": [
+        { "type": "list", "value": [9, 10, 11, 12, null] }
+      ],
+      "instruction": "Angka berapa yang jadi berikutnya?"
+    }
+  },
+
+  "choices": {
+    "a": { "type": "number", "value": 5 },
+    "b": { "type": "number", "value": 10 },
+    "c": { "type": "number", "value": 13 },
+    "d": { "type": "number", "value": 11 }
+  },
+
+  "answer": "c",
+  "assets": {
+    "images": null
+  }
+}
