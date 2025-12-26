@@ -22,10 +22,10 @@
   },
 
   "choices": {
-    "a": 14,
-    "b": 7,
-    "c": 16,
-    "d": 20
+    "a": { "type": "number", "value": 16 },
+    "b": { "type": "number", "value": 7 },
+    "c": { "type": "number", "value": 16 },
+    "d": { "type": "number", "value": 20 }
   },
 
   "answer": "c",

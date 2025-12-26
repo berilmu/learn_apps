@@ -1,0 +1,39 @@
+{
+  "id": "mtpc04",
+  "type": "multiple_choice",
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "There were 9 elephants." },
+        { "type": "image_repeat", "ref": "elephant_scene", "quantity" : 9, "layout": "grid"},
+        { "type": "text", "value": "One elephant ran away." }
+      ],
+      "instruction": "Now there are how many elephants are left?"
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Ada 9 gajah." },
+        { "type": "image_repeat", "ref": "elephant_scene", "quantity" : 9, "layout": "grid"},
+        { "type": "text", "value": "Satu gajah lari." }
+      ],
+      "instruction": "Berapa banyak gajah yang tersisa sekarang?"
+    }
+  },
+  "choices": {
+    "a": { "type": "number", "value": 5 },
+    "b": { "type": "number", "value": 10 },
+    "c": { "type": "number", "value": 8 }
+  },
+  "answer": "c",
+  "assets": {
+    "images": {
+      "elephant_scene": {
+        "src": null,
+        "alt": {
+          "en": "elephants",
+          "id": "gajah"
+        }
+      }
+    }
+  }
+}

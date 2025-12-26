@@ -1,0 +1,37 @@
+{
+  "id": "mtpc06",
+  "type": "multiple_choice",
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Budi saw 5 turtles." },
+        { "type": "text", "value": "One turtle swam away." }
+      ],
+      "instruction": "How many turtles are left?"
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Budi melihat 5 kura-kura." },
+        { "type": "text", "value": "Satu kura-kura berenang pergi." }
+      ],
+      "instruction": "Berapa banyak kura-kura yang tersisa sekarang?"
+    }
+  },
+  "choices": {
+    "a": { "type": "image_repeat", "ref": "turtle_scene", "quantity" : 6, "layout": "grid"},
+    "b": { "type": "image_repeat", "ref": "turtle_scene", "quantity" : 3, "layout": "grid"},
+    "c": { "type": "image_repeat", "ref": "turtle_scene", "quantity" : 4, "layout": "grid"}
+  },
+  "answer": "c",
+  "assets": {
+    "images": {
+      "turtle_scene": {
+        "src": null,
+        "alt": {
+          "en": "turtles",
+          "id": "kura-kura"
+        }
+      }
+    }
+  }
+}
