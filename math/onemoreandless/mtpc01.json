@@ -6,7 +6,7 @@
     "en": {
       "blocks": [
         { "type": "text", "value": "Sendy saw 17 squirrels." },
-        { "type": "image", "ref": "squirrel_scene" },
+        { "type": "image_repeat", "ref": "squirrel_scene", "quantity" : 17, "layout": "grid"},
         { "type": "text", "value": "One squirrel ran away." }
       ],
       "instruction": "How many squirrels are left?"
@@ -33,7 +33,7 @@
   "assets": {
     "images": {
       "squirrel_scene": {
-        "src": "assets/images/animals/squirrel_17.png",
+        "src": null,
         "alt": {
           "en": "Seventeen squirrels with one running away",
           "id": "Tujuh belas tupai dengan satu yang lari"
