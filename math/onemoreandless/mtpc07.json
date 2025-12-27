@@ -1,0 +1,44 @@
+{
+  "id": "mtpc07",
+  "type": "multiple_choice",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Bambang had the ladybugs shown below." },
+        { "type": "image_repeat", "ref": "ladybug_scene", "quantity" : 9, "layout": "grid"},
+        { "type": "text", "value": "He found one more ladybug." }
+      ],
+      "instruction": "Now he has ... ladybugs."
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Bambang memiliki kepik yang ditunjukkan di bawah." },
+        { "type": "image", "ref": "ladybug_scene" },
+        { "type": "text", "value": "Dia menemukan satu kepik lagi." }
+      ],
+      "instruction": "Sekarang dia memiliki ... kepik."
+    }
+  },
+
+  "choices": {
+    "a": { "type": "number", "value": 10 },
+    "b": { "type": "number", "value": 13 },
+    "c": { "type": "number", "value": 3 },
+    "d": { "type": "number", "value": 5 }
+  },
+
+  "answer": "a",
+
+  "assets": {
+    "images": {
+      "ladybug_scene": {
+        "src": null,
+        "alt": {
+          "en": "ladybugs",
+          "id": "kepik"
+        }
+      }
+    }
+  }
+}

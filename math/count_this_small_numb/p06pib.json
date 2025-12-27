@@ -1,0 +1,22 @@
+{
+  "id": "p06pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 6 proboscis monkeys in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 6 bekantan ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": null,
+    "description": "The proboscis monkey, also known as the bekantan, is an endemic primate of Borneo, famous for its long nose."
+  },
+
+  "answer": {
+    "required_count": 6
+  }
+}

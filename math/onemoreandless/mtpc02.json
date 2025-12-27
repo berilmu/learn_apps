@@ -1,0 +1,44 @@
+{
+  "id": "mtpc02",
+  "type": "multiple_choice",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Dita saw the chicks shown below." },
+        { "type": "image_repeat", "ref": "chick_scene", "quantity" : 14, "layout": "grid"},
+        { "type": "text", "value": "One chick ran away." }
+      ],
+      "instruction": "How many chicks are left?"
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Dita melihat anak ayam yang ditunjukkan di bawah." },
+        { "type": "image", "ref": "chick_scene" },
+        { "type": "text", "value": "Satu anak ayam lari." }
+      ],
+      "instruction": "Berapa banyak anak ayam yang tersisa?"
+    }
+  },
+
+  "choices": {
+    "a": { "type": "number", "value": 14 },
+    "b": { "type": "number", "value": 13 },
+    "c": { "type": "number", "value": 16 },
+    "d": { "type": "number", "value": 20 }
+  },
+
+  "answer": "b",
+
+  "assets": {
+    "images": {
+      "chick_scene": {
+        "src": null,
+        "alt": {
+          "en": "chicks",
+          "id": "anak ayam"
+        }
+      }
+    }
+  }
+}

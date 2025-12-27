@@ -1,0 +1,22 @@
+{
+  "id": "p08pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 8 maleo birds in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 8 burung maleo ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": null,
+    "description": "The maleo is an endemic bird of Sulawesi, Indonesia, known for laying its eggs in warm sand or volcanic soil."
+  },
+
+  "answer": {
+    "required_count": 8
+  }
+}

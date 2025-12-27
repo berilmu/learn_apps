@@ -1,0 +1,29 @@
+{
+  "id": "mtpc03",
+  "type": "multiple_choice",
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "The zoo had 1 Lion." },
+        { "type": "text", "value": "The zoo got 1 more Lion." }
+      ],
+      "instruction": "Now there are how many Lions at the zoo?"
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Kebun binatang memiliki 1 singa." },
+        { "type": "text", "value": "Kebun binatang mendapat 1 singa lagi." }
+      ],
+      "instruction": "Berapa banyak singa yang sekarang ada di kebun binatang?"
+    }
+  },
+  "choices": {
+    "a": { "type": "number", "value": 1 },
+    "b": { "type": "number", "value": 2 },
+    "c": { "type": "number", "value": 3 }
+  },
+  "answer": "b",
+  "assets": {
+    "images": null
+  }
+}

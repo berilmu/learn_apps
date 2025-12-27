@@ -1,0 +1,22 @@
+{
+  "id": "p10pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 10 babirusa in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 10 babi rusa ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": null,
+    "description" : "Babirusas, also called deer-pigs (Indonesian: babi rusa[2]), are a genus, Babyrousa, in the swine family found in the Indonesian islands of Sulawesi, Togian, Sula and Buru."
+  },
+
+  "answer": {
+    "required_count": 10
+  },
+}

@@ -1,0 +1,22 @@
+{
+  "id": "p04pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 4 foxes in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 4 rubah ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": "Fox",
+    "description": "Foxes are small to medium-sized omnivorous mammals known for their bushy tails and adaptability to many habitats."
+  },
+
+  "answer": {
+    "required_count": 4
+  }
+}

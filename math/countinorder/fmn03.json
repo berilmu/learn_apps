@@ -1,0 +1,31 @@
+{
+  "id": "fmn03",
+  "type": "fill_missing_number",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Count the worms!" }
+      ],
+      "instruction": "Type the missing numbers.",
+      "sequence": [1, null, 3, 4, null]
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Hitung jumlah cacing ini!" }
+      ],
+      "instruction": "Tuliskan angka yang hilang.",
+      "sequence": [1, null, 3, 4, null]
+    }
+  },
+
+  "answer": {
+    "missing_count": 2,
+    "position_index": [1, 4],
+    "values": [2, 5]
+  },
+
+  "assets": {
+    "image": null
+  }
+}

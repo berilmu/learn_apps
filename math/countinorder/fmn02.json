@@ -1,0 +1,30 @@
+{
+  "id": "fmn02",
+  "type": "fill_missing_number",
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Count the flowers!" }
+      ],
+      "instruction": "Type the missing numbers.",
+      "sequence": [1, null, 3]
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Hitung jumlah bunga ini!" }
+      ],
+      "instruction": "Tuliskan angka yang hilang.",
+      "sequence": [1, null, 3]
+    }
+  },
+
+  "answer": {
+    "missing_count": 1,
+    "positions_index" : [1],
+    "values": [2]
+  },
+
+  "assets": {
+    "image": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "p01pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put a giraffe in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan seekor jerapah ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": null,
+    "description": "Giraffes are the tallest land animals, native to Africa, and are easily recognized by their long necks."
+  },
+
+  "answer": {
+    "required_count": 1
+  }
+}

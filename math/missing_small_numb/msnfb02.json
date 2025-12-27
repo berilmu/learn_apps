@@ -1,0 +1,30 @@
+{
+  "id": "msnfb02",
+  "type": "fill_in_the_blank",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Type the missing number." },
+        { "type": "list", "value": [2, 3, 4, null, 6, 7, 8, null] }
+      ],
+      "instruction": "Type the missing number in the boxes."
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Ketik angka yang hilang." },
+        { "type": "list", "value": [2, 3, 4, null, 6, 7, 8, null] }
+      ],
+      "instruction": "Ketik angka yang hilang di kotak."
+    }
+  },
+
+  "answer": {
+    "positions": [3, 7],
+    "values": [5, 9]
+  },
+
+  "assets": {
+    "images": null
+  }
+}

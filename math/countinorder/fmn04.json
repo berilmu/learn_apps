@@ -1,0 +1,30 @@
+{
+  "id": "fmn04",
+  "type": "fill_missing_number",
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Count the kangaroos!" }
+      ],
+      "instruction": "Type the missing numbers.",
+      "sequence": [1, 2, 3, null, null]
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Hitung jumlah kangguru ini!" }
+      ],
+      "instruction": "Tuliskan angka yang hilang.",
+      "sequence": [1, 2, 3, null, null]
+    }
+  },
+
+  "answer": {
+    "missing_count": 2,
+    "position_index" : [3, 4],
+    "values": [4, 5]
+  },
+  
+  "assets": {
+    "image": null
+  }
+}

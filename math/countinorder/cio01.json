@@ -1,0 +1,32 @@
+{
+  "id": "cio01",
+  "type": "count_in_order",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "How do we count the flowers?" }
+      ],
+      "instruction": "Choose one answer."
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Bagaimana cara kita menghitung bunga ini?" }
+      ],
+      "instruction": "Pilih satu."
+    }
+  },
+
+  "choices": {
+    "a": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "b": [1, 2, null, 4, 5, 6, null, 7, 8]
+  },
+
+  "count" : 10,
+  
+  "answer": "a",
+
+  "assets": {
+    "image": null
+  }
+}

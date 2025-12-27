@@ -1,0 +1,22 @@
+{
+  "id": "p05pib",
+  "type": "put_picture_in_box",
+
+  "content": {
+    "en": {
+      "instruction": "Put 5 birds-of-paradise in the box!"
+    },
+    "id": {
+      "instruction": "Letakkan 5 burung cendrawasih ke dalam kotak!"
+    }
+  },
+
+  "picture": {
+    "name": null,
+    "description": "Birds-of-paradise are a family of birds known for their colorful plumage and elaborate courtship displays, native to eastern Indonesia and surrounding regions."
+  },
+
+  "answer": {
+    "required_count": 5
+  }
+}

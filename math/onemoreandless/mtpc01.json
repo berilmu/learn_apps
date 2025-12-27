@@ -1,0 +1,44 @@
+{
+  "id": "mtpc01",
+  "type": "multiple_choice",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Sendy saw 17 squirrels." },
+        { "type": "image_repeat", "ref": "squirrel_scene", "quantity" : 17, "layout": "grid"},
+        { "type": "text", "value": "One squirrel ran away." }
+      ],
+      "instruction": "How many squirrels are left?"
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Sendy melihat 17 tupai." },
+        { "type": "image", "ref": "squirrel_scene" },
+        { "type": "text", "value": "Satu tupai lari." }
+      ],
+      "instruction": "Berapa banyak tupai yang tersisa?"
+    }
+  },
+
+  "choices": {
+    "a": { "type": "number", "value": 16 },
+    "b": { "type": "number", "value": 7 },
+    "c": { "type": "number", "value": 16 },
+    "d": { "type": "number", "value": 20 }
+  },
+
+  "answer": "c",
+
+  "assets": {
+    "images": {
+      "squirrel_scene": {
+        "src": null,
+        "alt": {
+          "en": "Seventeen squirrels with one running away",
+          "id": "Tujuh belas tupai dengan satu yang lari"
+        }
+      }
+    }
+  }
+}
