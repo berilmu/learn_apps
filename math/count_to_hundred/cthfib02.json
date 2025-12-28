@@ -1,0 +1,35 @@
+{
+  "id": "cthfib02",
+  "type": "fill_in_the_blank",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "What number is missing?" },
+        { "type": "image_box", "ref": "missing_54"}
+      ],
+      "instruction": "Type the missing number in the boxes."
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Angka berapa yang hilang?" },
+        { "type": "image_box", "ref": "missing_54"}
+      ],
+      "instruction": "Ketik angka yang hilang di kotak."
+    }
+  },
+
+  "answer": [54],
+
+  "assets": {
+    "images": {
+      "missing_54": {
+        "src": null,
+        "alt": {
+          "en": "A number line from 1 to 100 with the number 54 missing",
+          "id": "Garis angka dari 1 sampai 100 dengan angka 54 yang hilang"
+        }
+      }
+    }
+  }
+}
