@@ -1,0 +1,34 @@
+{
+  "id": "cptmtpc02",
+  "type": "multiple_choice",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "let's count by tens:" },
+        { "type": "list", "value": [10, 20, 30, 40, 50, null, 70, 80, 90, 100] }
+      ],
+      "instruction": "What number we did miss?"
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Mari kita hitung kelipatan sepuluh:" },
+        { "type": "list", "value": [10, 20, 30, 40, 50, null, 70, 80, 90, 100] }
+      ],
+      "instruction": "Angka berapa yang tidak terhitung?"
+    }
+  },
+
+  "choices": {
+    "a": { "type": "number", "value": 20 },
+    "b": { "type": "number", "value": 30 },
+    "c": { "type": "number", "value": 60 },
+    "d": { "type": "number", "value": 50 }
+  },
+
+  "answer": "c",
+
+  "assets": {
+    "images": null
+  }
+}

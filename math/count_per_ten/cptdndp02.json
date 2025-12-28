@@ -1,0 +1,36 @@
+{
+  "id": "cptdndp02",
+  "type": "drag_n_drop_pic_to_box",
+
+  "content": {
+    "en": {
+      "instruction": "Drag the ten-frame boxes into the target box to make 50 circles."
+    },
+    "id": {
+      "instruction": "Seret kotak sepuluh lingkaran ke dalam kotak tujuan untuk membentuk 50 lingkaran."
+    }
+  },
+
+  "draggable_item": {
+    "kind": "ten_frame",
+    "unit_value": 10,
+    "asset_ref": "ten_frame_10"
+  },
+
+  "answer": {
+    "required_items": 5,
+    "total_target": 50
+  },
+
+  "render_rules": {
+    "cloneable": true,
+    "max_items": 10,
+    "drop_zone": "single_box"
+  },
+
+  "assets": {
+    "images": {
+      "ten_frame_10": null
+    }
+  }
+}

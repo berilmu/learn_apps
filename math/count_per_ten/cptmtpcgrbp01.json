@@ -1,0 +1,40 @@
+{
+  "id": "cptmtpcgrb01",
+  "type": "multiple_choice",
+
+  "content": {
+    "en": {
+      "blocks": [
+        { "type": "text", "value": "Which ten frames shown 20?" }
+      ],
+      "instruction": "choose an answer!"
+    },
+    "id": {
+      "blocks": [
+        { "type": "text", "value": "Frame sepuluh mana yang menunjukkan 10?" }
+      ],
+      "instruction": "Pilih jawaban yang benar!"
+    }
+  },
+
+  "choices": {
+    "a": { "type": "image_repeat", "ref": "button_by_ten", "quantity" : 2, "layout": "grid"},
+    "b": { "type": "image_repeat", "ref": "button_by_ten", "quantity" : 1, "layout": "grid"},
+    "c": { "type": "image_repeat", "ref": "button_by_ten", "quantity" : 3, "layout": "grid"},
+    "d": { "type": "image_repeat", "ref": "button_by_ten", "quantity" : 5, "layout": "grid"}
+  },
+
+  "answer": "a",
+
+  "assets": {
+    "images": {
+      "button_by_ten": {
+        "src": null,
+        "alt": {
+          "en": "frames filled with ten circles",
+          "id": "frame yang diisi dengan sepuluh lingkaran"
+        }
+      }
+    }
+  }
+}
