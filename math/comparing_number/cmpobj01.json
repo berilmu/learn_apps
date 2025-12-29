@@ -1,0 +1,81 @@
+{
+  "id": "cmpobj01",
+  "type": "multiple_choice",
+
+  "content": {
+    "en": {
+      "blocks": [
+        {
+          "type": "text",
+          "value": "Raj ate"
+        },
+        {
+          "type": "image_repeat",
+          "ref": "banana",
+          "quantity": 3,
+          "layout": "grid"
+        },
+        {
+          "type": "text",
+          "value": "Maddie ate"
+        },
+        {
+          "type": "image_repeat",
+          "ref": "banana",
+          "quantity": 4,
+          "layout": "grid"
+        },
+        {
+          "type": "text",
+          "value": "Who ate more bananas?"
+        }
+      ],
+      "instruction": "Choose one answer."
+    },
+
+    "id": {
+      "blocks": [
+        {
+          "type": "text",
+          "value": "Raj makan"
+        },
+        {
+          "type": "image_repeat",
+          "ref": "banana",
+          "quantity": 3,
+          "layout": "grid"
+        },
+        {
+          "type": "text",
+          "value": "Maddie makan"
+        },
+        {
+          "type": "image_repeat",
+          "ref": "banana",
+          "quantity": 4,
+          "layout": "grid"
+        },
+        {
+          "type": "text",
+          "value": "Siapa yang makan pisang lebih banyak?"
+        }
+      ],
+      "instruction": "Pilih satu jawaban."
+    }
+  },
+
+  "choices": {
+    "a": "Raj",
+    "b": "Maddie"
+  },
+
+  "answer": "b",
+
+  "assets": {
+    "objects": {
+      "banana": {
+        "image": null
+      }
+    }
+  }
+}
